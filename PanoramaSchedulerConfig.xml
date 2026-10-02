@@ -1,0 +1,35 @@
+<Scheduler>
+	<Job>
+		<JobName>Queue Cleanup</JobName>
+		<JobType>External Executable</JobType>
+		<Method>C:\Program Files\DPCI\MediaBankIntegrationService\bin\cleanup.exe</Method>
+		<Parameters></Parameters>
+		<StartOn>4:54 PM 3/15/2005</StartOn>
+		<Recurring>Weekly</Recurring>
+		<Interval>2</Interval>
+		<CreatedOn>4:54 PM 3/15/2005</CreatedOn>
+		<Status>Inactive</Status>
+	</Job>
+	<Job>
+		<JobName>MediaBank Sync</JobName>
+		<JobType>External Executable</JobType>
+		<Method>C:\windows\notepad.exe</Method>
+		<Parameters>a 22 b 33 c 44</Parameters>
+		<StartOn>4:51 PM 3/17/2005</StartOn>
+		<Recurring>Minute</Recurring>
+		<Interval>10</Interval>
+		<CreatedOn>4:54 PM 3/15/2005</CreatedOn>
+		<Status>InActive</Status>
+	</Job>
+	<Job>
+		<JobName>Image Placeholder</JobName>
+		<JobType>External Executable</JobType>
+		<Method>C:\Program Files\DPCI\ImagePlaceholderUtilitySetUp\ImagePlaceholderUtility.exe</Method>
+		<Parameters>1-</Parameters>
+		<StartOn>6:00 PM 3/29/2005</StartOn>
+		<Recurring>Minute</Recurring>
+		<Interval>5</Interval>
+		<CreatedOn>6.00 PM 3/29/2005</CreatedOn>
+		<Status>InActive</Status>
+	</Job>
+</Scheduler>
